@@ -69,7 +69,7 @@ Repository hiện chứa tài liệu hướng dẫn, báo cáo kiểm thử, mã
 ## Hướng dẫn cài đặt
 
 1. **Kiểm tra đúng dòng máy N176 (2025), CPU và BIOS** theo bảng thiết bị đã kiểm thử.
-2. Khi có bản phát hành hợp lệ, tải tệp `BELLATOR-2026-N176-English-R2-Setup.exe` tại mục [Releases](../../releases).
+2. Khi có bản phát hành hợp lệ, tải tệp `BELLATOR-2026-N176-English-R2-Setup.exe` tại mục [Releases](https://github.com/bmint31/BELLATOR-Control-Center-2026-N176/releases).
 3. Kiểm tra mã **SHA-256** của bộ cài trong PowerShell:
 
    ```powershell
