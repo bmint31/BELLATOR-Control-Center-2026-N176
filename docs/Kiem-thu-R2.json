@@ -1,0 +1,18 @@
+{
+  "release": "English R2",
+  "physicalMachinesTested": 1,
+  "supportedModel": "Lecoo Bellator N176 (2025), AMD Ryzen 9 8940HX",
+  "testedBIOS": "N176DRLKV2727",
+  "installedFileCount": 79,
+  "installedFileMismatches": [],
+  "checks": {
+    "host-hardware-qa.json": true,
+    "stability-final-qa.json": true,
+    "dialogs-final-qa.json": true,
+    "about-feedback-final-qa.json": true,
+    "host-guard-qa.json": true
+  },
+  "normalLaunch": [],
+  "developerPortOpen": false,
+  "passed": true
+}

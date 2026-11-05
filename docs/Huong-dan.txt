@@ -1,0 +1,49 @@
+BELLATOR CONTROL CENTER 1.1.5 — BẢN TIẾNG ANH
+
+Bo cai: BELLATOR-Control-Center-1.1.5-English-Setup.exe
+Nguon: BellatorConsole_Setup_V1.1.5.zip ban da cung cap.
+May duoc ho tro nhu bo goc: Bellator N176, Bellator N176B, Bellator N176C.
+
+CAI DAT
+1. Dong cua so Control Center cu neu dang mo.
+2. Chay file Setup bang Run as administrator.
+3. Tiep tuc theo huong dan tieng Anh. Bo cai co san .NET Desktop Runtime
+   6.0.5 x64 cua bo goc va chi chay no khi thieu .NET 6.
+4. Cong cu can mau man hinh tu chay sau khi cai, giong bo goc. Trong luc
+   cong cu nay dang hoat dong, giu chuot yen theo thong bao tren man hinh.
+5. Mo BELLATOR Control Center tu shortcut.
+
+DIEU KHIEN QUAT
+- Current speed: toc do quat hien tai.
+- Manual limit: gioi han RPM. Dung nut + / - nhu phan mem goc; moi muc
+  duoc gioi han theo che do Quiet, Balanced, Beast hoac Battle.
+- Auto: nut Restore Defaults cua ban goc. Nut nay tra hai quat ve dieu
+  khien firmware va dat lai tat ca gioi han quat da luu ve mac dinh.
+- Manual limit la gioi han toc do, khong phai khoa quat o mot RPM co dinh.
+  Khi mo lai app, ban goc van nap lai cac gioi han da luu.
+- Khong them fan curve tuy y: chua co bang chung giao thuc va thu nghiem
+  phan cung de ho tro chuc nang do.
+
+NHUNG GI DA THAY DOI
+- Dich giao dien chinh, hop thoai canh bao, thong bao loi, nhat ky hotkey
+  va giao dien cong cu can mau sang tieng Anh.
+- Chinh kich thuoc nhan/nut cho chu tieng Anh hien thi day du.
+- Lam ro nut Auto va nhan Manual limit theo dung lenh quat da co san.
+- Giu cac lenh WMI, gioi han RPM, che do hieu nang, GPU, ban phim va OSD
+  cua ung dung goc. Dich vu hotkey va cac thu vien di kem duoc giu lai.
+- Bo Setup va Uninstall duoc dong goi lai voi thong bao tieng Anh,
+  cung AppId va cung danh sach ba model cua bo goc.
+- Mot so ten tep/thu muc noi bo van giu ten goc de phim tat va tai nguyen
+  WPF hoat dong. Khong doi cac ten nay bang tay.
+
+KIEM TRA VA GIOI HAN
+- Da kiem tra 786 phuong thuc, 21.306 lenh CIL va 116 khai bao P/Invoke:
+  luong lenh va loi goi giu nguyen, chi cac chuoi dich duoc thay the.
+- Da dung thu giao dien chinh va cac hop thoai bang WPF, kiem tra cong cu
+  can mau bang dung .NET Framework; 20 anh OSD goc khong co chu Trung.
+- Da giai nen bo Setup va doi chieu du 403 tep thanh phan goc bang SHA-256.
+- Chua chay chu ky cai/go va thu dieu khien quat/GPU thuc te cua ban moi.
+  Anh xem truoc chi de kiem tra bo cuc, khong phai so lieu may dang chay.
+- Day la ban dich dong goi lai, khong co chu ky so cua nha san xuat.
+
+Ban goc van con tai duong dan Downloads ban da cung cap.

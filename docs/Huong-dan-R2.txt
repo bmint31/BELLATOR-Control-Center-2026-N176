@@ -1,0 +1,81 @@
+BELLATOR 2026 ENGLISH R2 - N176 2025
+
+CHỈ GỬI BỘ CÀI R2
+BELLATOR-2026-N176-English-R2-Setup.exe là bộ cài đầy đủ, có thành phần
+gốc của hãng và phần tương thích tiếng Anh. Không cần bản cũ cài trước.
+Không gửi thư mục app đã cài hoặc thư mục work cho người khác.
+
+MÁY HỖ TRỢ
+Dành cho Lecoo Bellator N176 2025 dùng AMD Ryzen 9 8940HX.
+Bộ cài kiểm tra đúng model, CPU và phản hồi đọc mode/quạt từ BIOS trước
+khi cài. Không áp dụng cho mọi máy Lenovo, N176 dùng CPU khác hoặc N176B/C.
+Máy kiểm thử thực tế: N176, Ryzen 9 8940HX, RTX 5060, BIOS N176DRLKV2727.
+Chưa có máy thứ hai hoặc máy ảo sạch để xác minh độc lập. Cùng tên dòng máy
+không có nghĩa là mọi biến thể BIOS/phần cứng đều đã được kiểm thử.
+
+CÀI ĐẶT
+Chạy bộ cài R2 với quyền quản trị. Không cần đổi vùng Windows sang Trung Quốc.
+Bộ cài đã được thử nâng cấp, gỡ rồi cài mới trên Windows en-US.
+Phần giải nén gốc dùng đường dẫn tạm ASCII, tránh lỗi tên thư mục theo vùng.
+Mở bằng BELLATOR 2026 (English) trên Desktop hoặc Start.
+Các shortcut tiếng Trung trùng của cùng app sẽ được xóa; thành phần gốc
+phục vụ điều khiển máy được giữ lại.
+
+ĐÃ SỬA TRONG R2
+- Chữ tiếng Anh trong Settings, About, Feedback và các câu ghép theo tên app.
+- Bố cục Settings, nút Select folder và menu không còn bó chữ theo cột dọc.
+- 60 khung ảnh khởi động giữ biểu tượng gốc và đổi phần chữ sang tiếng Anh.
+- My games không còn hiện ảnh quảng bá tiếng Trung khi chưa đăng nhập.
+- Support trong app dùng giao diện tiếng Anh và liên kết đúng thị trường
+  Trung Quốc: tài liệu N176, tra bảo hành nội địa, hỗ trợ Lenovo Trung Quốc.
+  Trang web ngoài của hãng có thể vẫn tiếng Trung; có thể dùng dịch trình duyệt.
+  Khi tra bảo hành, nhập S/N thủ công từ tem máy; không dùng tự nhận diện quốc tế.
+
+MODE VÀ QUẠT
+Quiet / Balanced / Beast / Battle dùng giao tiếp gốc của máy.
+Cắm sạc chính hãng để chọn các chế độ yêu cầu nguồn AC.
+Nút − / + chỉnh mức quạt tối đa mỗi lần 100 RPM, trong khoảng gốc của 1.1.5.
+Mỗi mode lưu riêng mức quạt. Battle đang dùng hồ sơ ban đầu 4400 / 8200 RPM.
+Current là tốc độ đo thực tế, thay đổi theo nhiệt độ và có thể chênh nhẹ
+so với mức tối đa; đây không phải chế độ ép quạt chạy cố định liên tục.
+Restore defaults đặt lại mọi hồ sơ và nhả hai lệnh ghi đè như bản 1.1.5 gốc.
+Mặc định hãng ở Battle là 4300 / 8000 RPM.
+
+R2 dùng BellatorFanHost.exe để gửi đúng lệnh WMI gốc trong một tiến trình
+riêng, tránh truyền mảng điều khiển quạt qua bộ chuyển đổi native của giao diện.
+Tiến trình này đi cùng app, chỉ nhận lệnh quạt hợp lệ qua kết nối cục bộ có
+xác thực và kiểm tra giới hạn RPM. Không cài thêm driver hoặc Windows service.
+
+LOCAL MODE VÀ STEAM BOOST
+Điều khiển máy không cần tài khoản Lenovo. Local mode bỏ cửa sổ đăng nhập
+cho luồng sử dụng này; không tạo tài khoản giả hoặc mở quyền dịch vụ máy chủ.
+Steam Boost là tăng tốc mạng, cần Lenovo ID và quyền sử dụng dịch vụ của hãng.
+R2 ghi rõ Requires Lenovo ID khi chưa đăng nhập. Không có công tắc giả để
+hiện đang bật trong khi dịch vụ thực tế chưa hoạt động.
+Game center, Mini games và quảng cáo trực tuyến vẫn do máy chủ hãng cung cấp;
+tên game, hình quảng cáo và các trang ngoài có thể còn tiếng Trung.
+
+GIỚI HẠN SẠC 80%
+Chưa thêm vì chưa xác minh được lệnh giới hạn sạc được BIOS máy hỗ trợ.
+Bản này không thay đổi việc sạc và không có công tắc Battery Care giả.
+
+SỬA / GỠ
+Chạy lại cùng bộ cài R2 để sửa phần tiếng Anh của đúng bản 2.0.2.1161.
+Nếu thành phần gốc hỏng hoặc đã đổi sang phiên bản hãng khác, gỡ bản đó
+rồi cài mới bằng bộ R2. Cập nhật OEM có thể ghi đè phần tùy chỉnh tiếng Anh.
+Gỡ trong Settings > Apps > BELLATOR Control Center 2026 - English R2 for N176 (2025).
+Giữ bộ cài 1.1.5 tiếng Anh làm dự phòng, chỉ mở một app điều khiển mỗi lần.
+
+ĐÃ KIỂM THỬ
+- Nâng cấp, gỡ và cài mới bằng chính EXE R2 trên Windows en-US.
+- Đổi mode, đọc lại trạng thái, chỉnh hai quạt − / + rồi trả hồ sơ ban đầu.
+- 10 kiểm thử hành vi quạt theo 1.1.5 gốc đều đạt.
+- 12 chu kỳ mở/đóng Home, Settings, My games, Support; không thoát app,
+  cảm biến cập nhật trở lại sau chu kỳ chuyển trang.
+- Giao diện Settings/menu ở các viewport 1380x870, 1280x720, 1024x768.
+- About và Feedback còn hoạt động; không gửi phản hồi trong lúc kiểm thử.
+- Lệnh không hợp lệ, RPM ngoài khoảng và yêu cầu thiếu xác thực đều bị từ chối.
+- 79 file được đối chiếu sau cài; không đóng gói tài khoản, database người dùng
+  hoặc đường dẫn/tham số gỡ lỗi của máy phát triển.
+
+Đây là bản tương thích tùy chỉnh, không phải bản phát hành chính thức của hãng.
