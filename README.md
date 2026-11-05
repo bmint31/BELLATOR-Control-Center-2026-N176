@@ -1,94 +1,113 @@
-# BELLATOR Control Center 2026 — English R2 for N176
+# BELLATOR Control Center 2026 — Bản tiếng Anh R2 dành cho N176
 
-**Developed with Rea** (per project maintainer).  
-**Unofficial English localization / compatibility package** for the **Lecoo Bellator N176 (2025 hardware)**, based on the **BELLATOR Control Center 2026** software.
+**Phát triển với sự hỗ trợ của Rea** (theo thông tin từ tác giả dự án).
+
+Đây là **bản Việt hóa tài liệu giới thiệu cho phiên bản phần mềm được chuyển giao diện sang tiếng Anh (English R2)**, dựa trên **BELLATOR Control Center 2026**, dành cho laptop **Lecoo Bellator N176 (đời 2025)**. Đây là dự án tùy chỉnh **không chính thức**.
 
 > [!IMPORTANT]
-> **2026** refers to the software generation. **N176 (2025)** is the supported laptop model. This is **not** an official Lenovo / Lecoo release or a general-purpose Lenovo utility.
+> **Ứng dụng là BELLATOR Control Center 2026; năm 2025 là đời máy N176 được thử nghiệm, không phải năm phát hành của ứng dụng.**
+>
+> **Hiện chỉ mới kiểm thử thực tế trên 01 máy Bellator N176 (2025), CPU AMD Ryzen 9 8940HX. CHƯA thử nghiệm trên bất kỳ mã máy hoặc biến thể cấu hình nào khác.**
+>
+> Không thể khẳng định phần mềm hoạt động an toàn hoặc tương thích với N176B, N176C, các bản N176 có CPU/BIOS khác hay các dòng Lenovo/Lecoo khác.
 
-![BELLATOR Control Center 2026 — English R2 home screen](screenshots/Giao-dien-R2.png)
+![Giao diện chính BELLATOR Control Center 2026 — English R2](screenshots/Giao-dien-R2.png)
 
-## About this project
+## Giới thiệu dự án
 
-The project maintainer used **Rea** while developing this unofficial English R2 adaptation. The app is **BELLATOR Control Center 2026**; **N176 (2025)** identifies the supported laptop hardware, not the software release year.
+Dự án là bản tùy chỉnh giao diện **tiếng Anh** của phần mềm BELLATOR Control Center 2026 dành cho máy N176 đã nêu. Tác giả sử dụng **Rea** trong quá trình phát triển bản English R2.
 
-## Overview
+Mục tiêu là chuyển các phần giao diện sang tiếng Anh, đồng thời giữ lại các tính năng điều khiển phần cứng gốc tương ứng với máy đã kiểm thử. Dự án này **không phải phần mềm chính thức do Lenovo, Lecoo hoặc Bellator phát hành**.
 
-This repository documents an English-language adaptation of BELLATOR Control Center 2026 for the specified Bellator N176 laptop. The existing OEM hardware-control components are described in the included Vietnamese guides; the localization aims to retain the supported hardware functionality.
+Repository hiện chứa tài liệu hướng dẫn, báo cáo kiểm thử, mã SHA-256 và ảnh chụp màn hình; **không chứa mã nguồn ứng dụng hoặc file cài đặt EXE trong các thư mục mã nguồn**. Nếu có bộ cài được phép phân phối, bộ cài sẽ được đăng riêng tại mục **Releases**.
 
-**The installer and application source code have not been supplied in this repository.** The `docs/` folder contains the user-provided guides, test report and checksums; `screenshots/` contains the supplied UI previews. A binary release must be uploaded separately, only when its redistribution is authorized.
+## Thiết bị đã kiểm thử
 
-## Hardware compatibility
-
-| Item | Supported / verified configuration |
+| Hạng mục | Thông tin của máy đã kiểm thử |
 | --- | --- |
-| Device | Lecoo Bellator N176 (2025) |
-| CPU | AMD Ryzen 9 8940HX |
-| Tested GPU | NVIDIA GeForce RTX 5060 Laptop GPU |
-| Tested BIOS | `N176DRLKV2727` |
-| Software | BELLATOR Control Center 2026, English R2 / OEM version `2.0.2.1161` |
-| Physical systems tested | **1** (per supplied R2 report) |
+| Dòng máy | **Lecoo Bellator N176 (2025)** |
+| Bộ xử lý | AMD Ryzen 9 8940HX |
+| Card đồ họa | NVIDIA GeForce RTX 5060 Laptop GPU |
+| BIOS | `N176DRLKV2727` |
+| Phần mềm | BELLATOR Control Center **2026**, English R2 |
+| Phiên bản OEM tương ứng | `2.0.2.1161` |
+| Số máy kiểm thử thực tế | **01 máy** (theo báo cáo R2 do tác giả cung cấp) |
 
-**Not verified for** N176B, N176C, other N176 CPU configurations, different BIOS revisions, or unrelated Lenovo devices. Avoid installing on unsupported hardware.
+### Tình trạng tương thích
 
-## Features documented for English R2
+- **Đã kiểm thử:** Bellator N176 (2025), Ryzen 9 8940HX, RTX 5060, BIOS `N176DRLKV2727`.
+- **Chưa kiểm thử:** Bellator N176B, N176C, các biến thể N176 dùng CPU hoặc BIOS khác, và **tất cả dòng máy khác**.
+- **Không có cơ sở bảo đảm** bản tùy chỉnh sẽ hoạt động trên máy chưa kiểm thử. Không cài đặt khi thiết bị không khớp cấu hình đã xác minh.
 
-- English Home, Settings, About, Feedback, Support and selected UI resources.
-- Performance profiles: **Quiet / Balanced / Beast / Battle**.
-- Fan monitoring, per-mode RPM limits in 100 RPM steps and **Restore defaults**.
-- GPU mode and supported function-key / touchpad controls.
-- Local device controls without Lenovo sign-in.
-- Steam Boost requires a Lenovo account and access to the OEM service.
+## Các tính năng được ghi nhận ở bản English R2
 
-**Limitations:** No unverified battery charge limit / 80% Battery Care toggle; some cloud-fed content remains controlled by the manufacturer. Manual fan limits are caps, not fixed fan-speed targets. For details see [`docs/Huong-dan-R2.txt`](docs/Huong-dan-R2.txt).
+- Chuyển giao diện chính, phần cài đặt, giới thiệu, phản hồi, hỗ trợ và một số tài nguyên sang **tiếng Anh**.
+- Các chế độ hiệu năng: **Quiet / Balanced / Beast / Battle** (Yên tĩnh / Cân bằng / Hiệu năng cao / Chiến đấu).
+- Hiển thị tốc độ quạt thực tế, chỉnh **giới hạn tốc độ quạt** theo từng chế độ, mỗi bước **100 RPM**, và **Restore defaults** (khôi phục mặc định).
+- Các chức năng GPU, phím chức năng, bàn di chuột theo khả năng hỗ trợ của ứng dụng và phần cứng gốc.
+- Sử dụng chức năng điều khiển máy ở chế độ cục bộ mà không cần đăng nhập Lenovo.
+- **Steam Boost** vẫn yêu cầu tài khoản Lenovo và quyền truy cập dịch vụ của hãng.
 
-## Screenshots
+**Các giới hạn cần biết:** Chưa bổ sung chế độ giới hạn sạc 80% vì chưa xác minh được lệnh BIOS phù hợp. Một số nội dung trực tuyến vẫn do máy chủ hãng cung cấp. Mức RPM điều chỉnh là **giới hạn tối đa**, không phải lệnh ép quạt quay cố định liên tục. Xem [hướng dẫn bản R2](docs/Huong-dan-R2.txt) để biết thêm chi tiết.
 
-### English R2 — Home
-![English R2 Home](screenshots/Giao-dien-R2.png)
+## Hình ảnh giao diện
 
-### English R2 — Support
-![English R2 Support](screenshots/Support-R2.png)
+### Giao diện chính — BELLATOR 2026 English R2
 
-### Prior English 1.1.5 interface (reference)
-![Prior English interface](screenshots/Giao-dien-tieng-Anh.png)
+![Giao diện chính bản tiếng Anh R2](screenshots/Giao-dien-R2.png)
 
-## Installation
+### Trang hỗ trợ — bản English R2
 
-1. **Confirm the exact device model, CPU and BIOS compatibility** above.
-2. If an authorized binary release is published, download `BELLATOR-2026-N176-English-R2-Setup.exe` from the GitHub **Releases** section.
-3. Verify its SHA-256 before running it:
+![Giao diện trang hỗ trợ tiếng Anh](screenshots/Support-R2.png)
+
+### Giao diện bản 1.1.5 tiếng Anh — ảnh tham khảo
+
+![Giao diện BELLATOR 1.1.5 tiếng Anh](screenshots/Giao-dien-tieng-Anh.png)
+
+> Ảnh của bản **1.1.5** chỉ để tham khảo, không phải giao diện của bản **2026 R2**.
+
+## Hướng dẫn cài đặt
+
+1. **Kiểm tra đúng dòng máy N176 (2025), CPU và BIOS** theo bảng thiết bị đã kiểm thử.
+2. Khi có bản phát hành hợp lệ, tải tệp `BELLATOR-2026-N176-English-R2-Setup.exe` tại mục [Releases](../../releases).
+3. Kiểm tra mã **SHA-256** của bộ cài trong PowerShell:
+
    ```powershell
    Get-FileHash ".\BELLATOR-2026-N176-English-R2-Setup.exe" -Algorithm SHA256
    ```
-   Expected SHA-256 (from the supplied record):
-   ```
+
+   Mã SHA-256 được ghi trong tài liệu đã cung cấp:
+
+   ```text
    8633AB20765C1CD4BCD98292303CA5727FEED2031FBD4590D0A8F5F44CA05CA0
    ```
-4. Review [`docs/Huong-dan-R2.txt`](docs/Huong-dan-R2.txt) before running the installer with administrator privileges.
-5. Use the original AC adapter when changing power profiles. Do not run competing hardware-control applications simultaneously.
 
-The supplied documentation reports installation and hardware behavior tests on one matching Windows machine. This repository has **not independently re-tested** the submitted binary. The customized installer is **not signed by the original manufacturer**.
+   **Nếu mã không trùng khớp, không sử dụng tệp đó với thông tin xác minh này.**
+4. Đọc [hướng dẫn cài đặt và sử dụng R2](docs/Huong-dan-R2.txt), sau đó mới chạy bộ cài với quyền quản trị.
+5. Dùng bộ sạc chính hãng khi chọn các chế độ yêu cầu nguồn AC; không mở đồng thời nhiều ứng dụng điều khiển phần cứng có thể xung đột.
 
-## Included files
+**Về kiểm thử:** Tài liệu do tác giả cung cấp ghi nhận đã thử các thao tác cài/gỡ, chuyển chế độ, điều chỉnh quạt và chuyển trang trên **01 máy N176 phù hợp**. Những kết quả đó **chưa phải kiểm thử độc lập trên các dòng máy khác**. Bộ cài tùy chỉnh cũng **không có chữ ký số của nhà sản xuất**.
 
-| Path | Purpose |
+## Tài liệu và tệp trong repository
+
+| Đường dẫn | Nội dung |
 | --- | --- |
-| `docs/Huong-dan-R2.txt` | R2 compatibility, setup, controls, tested scope and known limitations (Vietnamese) |
-| `docs/Huong-dan.txt` | Previous English 1.1.5 version notes (Vietnamese) |
-| `docs/Kiem-thu-R2.json` | User-provided R2 test summary |
-| `docs/SHA256-R2.txt` | R2 installer SHA-256 |
-| `docs/SHA256.txt` | Prior 1.1.5 English installer SHA-256 |
-| `screenshots/` | User-provided UI previews |
-| `HUONG-DAN-DANG-GITHUB.md` | Vietnamese GitHub upload instructions |
-| `RELEASE_NOTES.md` | R2 release notes |
+| `docs/Huong-dan-R2.txt` | Hướng dẫn tiếng Việt cho bản 2026 English R2, cấu hình áp dụng và các giới hạn |
+| `docs/Huong-dan.txt` | Tài liệu tiếng Việt cho bản 1.1.5 tiếng Anh trước đó |
+| `docs/Kiem-thu-R2.json` | Báo cáo kết quả kiểm thử R2 do tác giả cung cấp |
+| `docs/SHA256-R2.txt` | Mã SHA-256 của bộ cài R2 |
+| `docs/SHA256.txt` | Mã SHA-256 của bộ cài tiếng Anh 1.1.5 |
+| `screenshots/` | Ảnh giao diện các phiên bản do tác giả cung cấp |
+| `RELEASE_NOTES.md` | Ghi chú thay đổi của bản English R2 |
 
-## Safety, trademarks and redistribution
+## Lưu ý về an toàn, bản quyền và phân phối
 
-This is an **unofficial** localization effort, not a product of Lenovo, Lecoo or Bellator. Brand names, logos and original program components belong to their respective owners. **Do not redistribute proprietary OEM installers, libraries, logos or other copyrighted material unless you have the necessary rights or permission.** If redistribution rights are unclear, keep the project private and publish only permitted documentation/material.
-
-Any available installer interacts with system hardware controls; test only on supported devices, make backups and keep the OEM recovery option available. No warranty is provided by this repository.
+- Đây là **dự án tùy chỉnh không chính thức**, không đại diện cho Lenovo, Lecoo hoặc Bellator.
+- Tên thương hiệu, biểu tượng và thành phần chương trình gốc thuộc về chủ sở hữu tương ứng.
+- **Chỉ được công khai hoặc phân phối lại bộ cài, thư viện và thành phần sở hữu độc quyền khi có quyền hoặc sự cho phép phù hợp.**
+- Phần mềm can thiệp vào chế độ hiệu năng và điều khiển phần cứng. Chỉ dùng trên cấu hình đã được kiểm thử, sao lưu dữ liệu quan trọng và giữ phương án khôi phục phần mềm gốc.
+- Không có bảo đảm về khả năng hoạt động trên các mẫu máy chưa thử nghiệm.
 
 ---
 
-**Tiếng Việt:** Đây là project giới thiệu **ứng dụng BELLATOR Control Center 2026 English R2** cho **máy Bellator N176 đời 2025**. File bộ cài `.exe` chưa có trong repository. Xem [hướng dẫn đăng GitHub](HUONG-DAN-DANG-GITHUB.md) và [hướng dẫn sử dụng R2](docs/Huong-dan-R2.txt).
+**Tóm tắt:** Dự án giới thiệu **BELLATOR Control Center 2026 — English R2** cho **Bellator N176 đời 2025**. Hiện mới có kết quả kiểm thử trên **01 máy N176**, **chưa kiểm thử những mã máy khác**. Xem thêm [tài liệu hướng dẫn](docs/Huong-dan-R2.txt) và [ghi chú phiên bản](RELEASE_NOTES.md).
